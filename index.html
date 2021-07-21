@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Zber dát</h1>
+    <form action="http://formular.itgirls.cz/">
+        <label>
+            Meno:
+            <input type="text" name="name" placeholder="Alena">
+        </label>
+        <br/>
+        <label>
+            Priezvisko:
+            <input type="text" name="last name"placeholder="Nováková">
+        </label>
+        <br/>
+        <label>
+            Dátum narodenia:
+            <input type="date" name="date of birth">
+        </label>
+        <br/>
+        <label>
+            Obľúbené ročné obdobie:
+            <select name="favourite month">
+                <option>Január</option>
+                <option>Február</option>
+                <option>Marec</option>
+                <option>Apríl</option>
+                <option>Máj</option>
+                <option>Jún</option>
+                <option>Júl</option>
+                <option>August</option>
+                <option>September</option>
+                <option>Október</option>
+                <option>November</option>
+                <option>December</option>
+            </select>
+        </label>
+        <br/>
+        <label>Stav:</label>
+            <label>
+                <input type="radio" name="status" value="1">
+                Slobodná/ý
+            </label>
+            <label>
+                <input type="radio" name="status" value="2"> 
+                Vydatá/Ženatý
+            </label>
+            <label>
+                <input type="radio" name="status" value="3">
+                Rozvedená/ý
+            </label>
+            <label>
+                <input type="radio" name="status" value="4">
+                Vdova/Vdovec
+            </label> 
+        <br/>
+            <label>
+                <input type="checkbox" checked> Všetky vyššie uvedevé údaje sú správne
+            </label>
+        <br/>
+        <button>Odoslať</button>
+    </form>
+</body>
+</html>
